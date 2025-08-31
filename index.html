@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>膳和有限公司</title>
+  <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon">
+  <meta name="keywords" content="">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+
+
+<!-- 主要favicon -->
+<link rel="icon" href="assets/img/shanhe-logo.png" type="image/png">
+
+<!-- 蘋果設備圖標 -->
+<link rel="apple-touch-icon" href="assets/img/shanhe-logo.png">
+
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: Yummy
+  * Template URL: https://bootstrapmade.com/yummy-bootstrap-restaurant-website-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">膳和有限公司</h1>
+        <span></span>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">首頁<br></a></li>
+          <li><a href="#hero" class="active">旗下品牌<br></a></li>
+          <li><a href="#events">最新活動</a></li>
+          <li><a href="令和博多.html">令和博多拉麵</a></li>
+          <li><a href="日暮.html">日暮拉麵</a></li>
+          <li><a href="關於我們.html">關於我們</a></li>
+		  <i class="mobile-nav-toggle d-x1-none bi bi-list"></i>
+		  </ul></nav>
+
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- 新增全寬圖片區塊 -->
+<section id="hero" class="custom-hero">
+  <img src="assets/img/your-image.jpg" alt="拉麵店主視覺" class="hero-image">
+  
+</section>
+    
+
+    <!-- Why Us Section -->
+    <section id="why-us" class="why-us section light-background">
+
+      <div class="container">
+
+        <div class="row gy-4 justify-content-center">
+    <div class="section-title-spacing" data-aos="fade-up">
+    <p><span>旗下品牌</span></p>
+</div>
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>令和博多拉麵</h3>
+              <img src="assets/img/bodo.jpg" class="why-box-image" alt="令和拉麵图片"> 
+              <div class="text-center">
+                <a href="令和博多.html" class="more-btn"><span>瞭解更多</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+
+         <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="why-box">
+              <h3>日暮拉麵</h3>
+              <img src="assets/img/日暮拉麵拷貝.jpg" class="why-box-image" alt="日暮拉麵图片"> 
+              <div class="text-center">
+                <a href="日暮.html" class="more-btn"><span>瞭解更多</span> <i class="bi bi-chevron-right"></i></a>
+              </div>
+            </div>
+          </div><!-- End Why Box -->
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Why Us Section -->
+
+ <div class="container section-title section-title-spacingp" data-aos="fade-up">
+  <p><span>最新</span> <span class="description-title">活動</span></p>
+</div>
+
+     
+    <section id="events" class="events section">
+
+  <div class="container-fluid" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 1
+            }
+          }
+        }
+      </script>
+
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end">
+          <img src="assets/img/軍人節.png" alt="軍人節活動" width="100%">
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end">
+          <img src="assets/img/誠品周年慶.jpg" alt="誠品周年慶" width="100%">
+        </div><!-- End Event item -->
+
+        <div class="swiper-slide event-item d-flex flex-column justify-content-end">
+          <img src="assets/img/加LINE好友.png" alt="加LINE好友" width="100%">
+        </div><!-- End Event item -->
+
+      </div>
+
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Events Section -->
+
+  <footer id="footer" class="footer dark-background">
+
+    <div class="container" >
+      <div class="row gy-3">
+        <div class="col-lg-2 col-md-6">
+          <i class="bi bi-geo-alt icon"></i>
+          <div class="address">
+            <h4>Address</h4>
+            <p>台北市內湖區康寧路三段2號1樓</p>
+           </p>
+          </div>
+
+        </div>
+
+        <div class="col-lg-2 col-md-6">
+          <i class="bi bi-telephone icon"></i>
+          <div>
+            <h4>Contact</h4>
+            <p>
+              <strong>Phone:</strong> <span>02 2633 9000 </span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-6x">
+          <i class="bi bi-clock icon"></i>
+          <div>
+            <h4>Opening Hours</h4>
+            <p>
+              <strong>周一至周日:</strong> <span>11AM - 22PM</span><br>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-3 col-md-6">
+          <h4>Follow Us博多</h4>
+          <div class="social-links d-flex">
+            <a href="https://www.google.com/maps/place/令和博多拉麵/data=!4m2!3m1!1s0x3442ad0064545b4b:0xc3fb93a50128e06b?sa=X&ved=1t:242&ictx=111" class="twitter"><i class="bi bi-google"></i></a>
+            <a href="https://www.facebook.com/p/令和博多拉麵-61559236584603/" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://lin.ee/492eK7x" class="line"><i class="fa-brands fa-line"></i></a>
+
+            
+          </div>
+        </div>
+         <div class="col-lg-3 col-md-6">
+          <h4>Follow Us日暮</h4>
+          <div class="social-links d-flex">
+            <a href="https://www.google.com/maps/place/令和博多拉麵/data=!4m2!3m1!1s0x3442ad0064545b4b:0xc3fb93a50128e06b?sa=X&ved=1t:242&ictx=111" class="twitter"><i class="bi bi-google"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61578915943960" class="facebook"><i class="bi bi-facebook"></i></a>
+            <a href="https://lin.ee/5Psv75We" class="line"><i class="fa-brands fa-line"></i></a>
+
+            
+          </div>
+        </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container copyright text-center mt-4">
+      <p>© <span>Copyright</span> <strong class="px-1 sitename">2025 膳和有限公司</strong> <span>All Rights Reserved</span></p>
+      <div class="credits">
+        <!-- All the links in the footer should remain intact. -->
+        <!-- You can delete the links only if you've purchased the pro version. -->
+        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+        <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
+         <p>Designed by ：林宜伶，葉芃孝，林妍妡，鍾雨凝</p>
+      </div>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+
+  <!-- 在 head 或 body 末尾添加 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+<script src="https://cdn.jsdelivr.net/gh/mcstudios/glightbox/dist/js/glightbox.min.js"></script>
+</body>
+
+</html>
